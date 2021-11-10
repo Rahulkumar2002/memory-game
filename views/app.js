@@ -1,5 +1,3 @@
-console.log("app.js is connected to the terminal");
-
 
 document.addEventListener("DOMContentLoaded", () => {
     //card options :
@@ -109,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let cardId = this.getAttribute('data-id');
         cardsChosen.push(cardArray[cardId].name);
         cardsChosenId.push(cardId);
-        this.setAttribute('src', cardArray[cardId].img)
+        this.setAttribute('src', cardArray[cardId].img);
         if (cardsChosen.length === 2) {
             setTimeout(checkForMatch, 500)
         }
