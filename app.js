@@ -90,8 +90,8 @@ document.addEventListener("DOMContentLoaded", () => {
             cards[optionTwoId].removeEventListener('click', flipcard)
             cardsWon.push(cardsChosen)
         } else {
-            cards[optionOneId].setAttribute('src', '../images/blank.png')
-            cards[optionTwoId].setAttribute('src', '../images/blank.png')
+            cards[optionOneId].setAttribute('src', './images/blank.png')
+            cards[optionTwoId].setAttribute('src', './images/blank.png')
             alert('Sorry, try again')
         }
         cardsChosen = []
