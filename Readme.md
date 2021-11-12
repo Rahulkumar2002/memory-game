@@ -17,7 +17,7 @@ So , our end product will look something like this :
 ![End-Product-Image](./images/end_product-img.png)
 
 
-Let's just get right into it . We will create a folder with name **Memory-Game**  , inside this folder we will have two folder named as **views** and **images**, inside **views** we have three files named as **index.html** , **style.css** & **app.js** with these three files , In **images** we have our images . You can download image from this repo [memory-game-repo](). 
+Let's just get right into it . We will create a folder with name **Memory-Game**  , inside this folder we will have two folder named as **views** and **images**, inside **views** we have three files named as **index.html** , **style.css** & **app.js** . In **images** we have our images . You can download image from this repo [memory-game-repo](). 
 
 In index.html , we will create our boiler plate by <kbd>!</kbd> + <kbd>Enter</kbd> . After that we will link our stylesheet like this in our head tag `<link rel="stylesheeet" href="style.css"></link>` ,  put our title **Memory-Game** in title tag and last work for our head tag will be to link our **app.js** with index.html like this `<script src="./app.js" charset="utf-8"></script>` , with this our head tag is completed . 
 
